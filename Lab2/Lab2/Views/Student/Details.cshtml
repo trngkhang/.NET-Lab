@@ -1,0 +1,26 @@
+﻿@model Lab2.Models.StudentInfo
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Details</h1>
+
+@{
+    ViewData["Title"] = "Đọc/Ghi file";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Đọc/ghi file</h2>
+<form asp-action="Manage" asp-controller="Student" method="post">
+    <div>Mã sinh viên</div>
+    <input name="Id" value="@ViewBag.Id" />
+    <div>Họ và tên</div>
+    <input name="Name" value="@ViewBag.Name" />
+    <div>Điểm trung bình</div>
+    <input name="Marks" value="@ViewBag.Marks" />
+    <hr />
+    <input type="submit" value="Lưu" name="command" />
+    <input type="submit" value="Mở" name="command" />
+</form>
+<h4>@ViewBag.Message</h4>
