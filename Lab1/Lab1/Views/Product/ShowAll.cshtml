@@ -1,0 +1,32 @@
+﻿@model List<Lab1.Models.Product>
+<html>
+<body>
+	<h1>All Product</h1>
+	<p><a href="Create" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Create course</a></p>
+	<table class="table">
+        <thead>
+            <tr>
+				<th scope="col">ID</th>
+				<th scope="col">Name</th>
+				<th scope="col">Price</th>
+				<th scope="col">Option</th>
+            </tr>
+        </thead>
+        <tbody>
+			@foreach (var p in Model)
+			{	
+				<tr>
+					<td>@p.ID</td>
+					<td>@p.Name</td>
+					<td>@p.Price</td>
+					<td>
+						<a asp-controller="Product" asp-action="Edit" asp-route-id="@p.ID">Sửa</a>
+						<a asp-controller="Product" asp-action="Delete" asp-route-id="@p.ID">Xóa</a>
+					</td>
+					
+				</tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>
