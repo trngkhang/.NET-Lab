@@ -9550,11 +9550,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Web dotNET\\Lab2\\Lab2\\Lab2.csproj",
+      "projectUniqueName": "E:\\3\\HK1\\NET\\Lab\\Lab2\\Lab2\\Lab2.csproj",
       "projectName": "Lab2",
-      "projectPath": "E:\\Web dotNET\\Lab2\\Lab2\\Lab2.csproj",
+      "projectPath": "E:\\3\\HK1\\NET\\Lab\\Lab2\\Lab2\\Lab2.csproj",
       "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-      "outputPath": "E:\\Web dotNET\\Lab2\\Lab2\\obj\\",
+      "outputPath": "E:\\3\\HK1\\NET\\Lab\\Lab2\\Lab2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fcXMBlCEPr/xVsG2FqlF+HR2hPGpV1V/6K0/tSiFT8BvmNIodSydVOacqzZ36meps/moiS1HwX8QplX/HiKcEw==",
+  "dgSpecHash": "cGmitz8WHjw3UbaGI4QWP+hFlnoiM139Ce8AfTdOQdB8tE3d2DGBFrxF89FhiYfc6PZf396Ze0ouqoLyb6eZRQ==",
   "success": true,
-  "projectFilePath": "E:\\Web dotNET\\Lab2\\Lab2\\Lab2.csproj",
+  "projectFilePath": "E:\\3\\HK1\\NET\\Lab\\Lab2\\Lab2\\Lab2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nguye\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\nguye\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

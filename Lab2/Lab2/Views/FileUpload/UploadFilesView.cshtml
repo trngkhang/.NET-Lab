@@ -1,0 +1,26 @@
+﻿@model Lab2.Models.FileInputModel;
+
+@{
+	ViewData["Title"] = "Upload file";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Upload file</h2>
+<form asp-controller="FileUpload" asp-action="UploadFile" method="post"
+	  enctype="multipart/form-data" class="form-inline">
+	<h4>Upload single-file</h4>
+	<input type="file" name="file" />
+	<button type="submit">Upload File</button>
+</form>
+<hr />
+<form asp-controller="FileUpload" asp-action="UploadFiles" method="post"
+	  enctype="multipart/form-data">
+	<h4>Upload multi-files</h4>
+	<input type="file" name="files" multiple />
+	<button type="submit">Upload Files</button>
+</form>
+<hr />
+<form asp-controller="FileUpload" asp-action="UploadFileViaModel" method="post"
+	  enctype="multipart/form-data" class="form-inline">
+	<input type="file" name="FileToUpload" />
+	<button type="submit">Upload File (model)</button>
+</form>

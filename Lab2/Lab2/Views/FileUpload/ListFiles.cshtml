@@ -1,0 +1,18 @@
+﻿@model Lab2.Models.FilesViewModel;
+@{
+	ViewData["Title"] = "ListFiles";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>List of file</h2>
+
+<ul>
+	@foreach (var item in Model.Files)
+	{
+		<li>
+			<a asp-action="Download" asp-route-filename="@item.Name">
+				@item.Name
+			</a>
+		</li>
+	}
+</ul>
